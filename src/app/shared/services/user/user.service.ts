@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 export class UserService {
   private userUrl = 'http://localhost:8081/user/';
 
-  public constructor(private http: HttpClient) { }
+  public constructor(private http: HttpClient) {}
 
   public getUser(id: string): Observable<User> {
     return this.http.get<User>(this.userUrl + id);
