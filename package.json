@@ -41,7 +41,7 @@
     "@typescript-eslint/parser": "^1.11.0",
     "codelyzer": "^5.0.0",
     "concurrently": "^4.1.1",
-    "dyson": "^2.0.4",
+    "dyson": "^2.0.5",
     "eslint": "^6.0.1",
     "eslint-config-airbnb-base": "^13.2.0",
     "eslint-config-prettier": "^6.0.0",
